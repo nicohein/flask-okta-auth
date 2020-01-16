@@ -1,4 +1,4 @@
-# Flask Okta
+# Flask Okta Auth
 
 
 ## Hello World Flask App
