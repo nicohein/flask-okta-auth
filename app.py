@@ -14,7 +14,7 @@ okta_blueprint = OAuth2ConsumerBlueprint(
     base_url=OKTA_BASE_URL,
     token_url=f'{OKTA_BASE_URL}/token',
     authorization_url=f'{OKTA_BASE_URL}/authorize',
-    scope=['openid', 'email'],
+    scope=['openid', 'email', 'profile'],
     # by default a login redirects to the root page
 )
 
